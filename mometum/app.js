@@ -1,9 +1,3 @@
-const player = {
-    name: "nico",
-    sayHello: function(otherPersonsName) {
-        console.log(`Hello ${otherPersonsName}`);
-    },
-};
+const age = Number(prompt("how old are you?"));
 
-console.log(player.name);
-player.sayHello("wonJun");
+console.log(typeof age);
